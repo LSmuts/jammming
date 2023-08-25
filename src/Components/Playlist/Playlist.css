@@ -6,8 +6,9 @@
     width: 37%;
     max-height: 950px;
     padding: 2.27rem 1.16rem;
-    background-color: rgba(1, 12, 63, 0.7);
-    box-shadow: 0 4px 2px 2px #000000;
+    background-color: rgba(53, 53, 53, 0.5);
+    border-radius: 10px;
+    filter: drop-shadow(75px 100px 60px #353535);
   }
   
   .Playlist input {
@@ -25,10 +26,10 @@
     cursor: pointer;
     width: 10rem;
     padding: .77rem 0;
-    border-radius: 54px;
+    border-radius: 10px;
     border-width: 0px;
     margin-top: 1.27rem;
-    background-color: #6c41ec;
+    background-color: #543654;
     text-align: center;
     font-size: .83rem;
     transition: background-color .25s;
@@ -37,7 +38,7 @@
   }
   
   .Playlist-save:hover {
-    background-color: rgba(108, 65, 233, .7);
+    background-color: rgba(84, 54, 84, .7);
   }
   
   ::-webkit-scrollbar {
