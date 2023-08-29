@@ -39,6 +39,11 @@ const Track = (props) => {
           {props.track.artist} | {props.track.album}
         </p>
       </div>
+      {/* Audio preview player */}
+      <audio controls>
+        <source src={props.track.preview_url} type="audio/mpeg"></source>
+        Your browser does not support the audio element.
+      </audio>
       {renderAction()}
     </div>
   );
